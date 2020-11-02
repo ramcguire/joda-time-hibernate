@@ -80,15 +80,11 @@
     </resources>
     <!-- define build -->
     <plugins>
-
-
-
-
-
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-jar-plugin</artifactId>
         <configuration>
+          <finalName>joda-time-hibername</finalName>
           <archive>
             <manifestFile>src/conf/MANIFEST.MF</manifestFile>
             <manifest>
