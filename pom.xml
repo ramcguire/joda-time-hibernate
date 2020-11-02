@@ -85,13 +85,6 @@
         <artifactId>maven-jar-plugin</artifactId>
         <configuration>
           <finalName>joda-time-hibername</finalName>
-          <archive>
-            <manifestFile>src/conf/MANIFEST.MF</manifestFile>
-            <manifest>
-              <addDefaultImplementationEntries>true</addDefaultImplementationEntries>
-              <addDefaultSpecificationEntries>true</addDefaultSpecificationEntries>
-            </manifest>
-          </archive>
         </configuration>
       </plugin>
       <plugin>
