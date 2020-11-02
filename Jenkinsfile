@@ -29,7 +29,7 @@ pipeline {
 
         stage ('Deploy') {
             when {
-              expression { env.BRANCH_NAME == "main" }
+              expression { env.BRANCH_NAME == "master" }
             }
             steps { 
               sh 'curl -u $ARTIFACTORY_CREDS -X PUT "http://artifactory:8081/artifactory/libs-snapshot/pipelines/joda-time-hibernate.jar" -T ./target/joda-time-hibernate.jar'
