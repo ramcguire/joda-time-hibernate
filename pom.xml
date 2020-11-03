@@ -432,7 +432,7 @@
         </property>
       </activation>
       <build>
-        <finalName>$\{project.artifactId}</finalName>
+        <finalName>$\{project.artifactId}-frombuild</finalName>
         <plugins>
 
           <plugin>
